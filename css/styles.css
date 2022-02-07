@@ -1,0 +1,152 @@
+:root {
+	--primary-color: rgb(238, 235, 231);
+	--secondary-color: #908b82;
+	--text-color: #dadada;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: black !important;
+}
+
+.wrapper {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background-color: var(--secondary-color);
+}
+
+/* .card-banner {
+	width: 100%;
+	height: auto;
+} */
+
+.arrivals .banner-info {
+	display: flex;
+	align-self: flex-end;
+	color: white !important;
+	margin:auto;
+	width: 100%;
+	z-index: 9;
+	padding: 0 15px;
+}
+
+#item {
+	width: 300px;
+	height: auto;
+	object-fit: contain;
+	overflow: hidden;
+}
+
+/* #arrivals .card-banner {
+	display: flex;
+} */
+
+.text-content {
+	font-family: Amatic SC;
+}
+
+.text-center {
+	position: absolute;
+	left: 30%;
+	top: 50%;
+}
+
+header {
+	position: fixed;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	z-index: 1000;
+}
+
+/* #products {
+	 background-color: rgb(118, 130, 146); 
+} */
+
+#products .collection {
+	color: white;
+	font-size: large;
+	padding: 3px;
+	border-radius: 12px;
+	background-color: black;	
+	border: 1px solid white;
+	margin: 4px;
+}
+
+#products .product-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#img-prdct {
+	width: 250px;
+	height: auto;
+	object-fit: contain;
+	overflow: hidden;
+}
+
+a:hover {
+	color: var(--primary-color) !important;
+}
+
+/*.navigation-wrap {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	z-index: 1;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.navigation-wrap .nav-item {
+	padding-top: 0 0.5rem;
+	transition: all 0.3s linear;	
+}
+*/
+
+#bg-img {
+	width: 100%;
+	height: auto;
+}
+
+
+.my-btn {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: var(--primary-color);
+	padding:  2px;
+}
+
+.info-section {
+	background:  linear-gradient(to bottom, #ffffff, #000000);
+ }
+ 
+ .info-bar {
+	 background-color: rgba(0, 0, 0,0.7);
+	 line-height: 1.5;
+	 font-size: x-large;
+	 box-sizing: border-box;
+	 z-index: 1000;
+ }
+ 
+ .info-col {
+	 display: grid;
+	 color: #a5a5a5;
+	 text-align: center;
+	 border-left: 1px solid black;
+	 z-index: 1000;
+ }
+
+footer {
+	color: #dadada;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+
+
+
+
