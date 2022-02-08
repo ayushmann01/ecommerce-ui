@@ -24,7 +24,7 @@
     />
   </head>
   <body>
-    <header
+    <!-- <header
       class="container-fluid d-flex flex-nowrap align-items-center justify-content-center justify-content-md-between px-5  py-1  border-bottom"
     >
       <a href="#" style="text-decoration: none"
@@ -52,12 +52,50 @@
         </li>
         <li><a href="#us" class="nav-link px-2 link-light">About us</a></li>
       </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+    </header> -->
+
+    <header class="container-fluid">
+      <nav class="navbar">
+        <a href="#" class="nav-branding" style="float: left; text-decoration: none;"><span
+          style="
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 5px;
+            font-size: x-large;
+            color: white;
+          "
+          >Shopo</span></a>
+
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link link-light">Home</a></li>
+        <li>
+          <a href="#arrivals" class="nav-link link-light">Arrivals</a>
+        </li>
+        <li>
+          <a href="#products" class="nav-link link-light">Products</a>
+        </li>
+        <li>
+          <a href="#deal" class="nav-link link-light">Deal of the day</a>
+        </li>
+        <li><a href="#us" class="nav-link link-light">About us</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
     </header>
 
     <main class="container-fluid">
       <section id="home">
         <div class="container-fluid">
-          <div class="row">
+          <div class="row mt-2">
             <div class="col-12 mb-4">
               <div
                 id="carouselExampleIndicators"
@@ -161,7 +199,7 @@
                 </div>
               </div> -->
               
-              <div class="card" style="width: 15rem;">
+              <div class="card" style="width: 18rem;">
                 <img src="./images/img/img-1.jpg" class="card-img-top" alt="...">
                 <div class="card-body bg-dark bg-gradient">
                   <div class="text-black">Braclets</div>
@@ -171,8 +209,8 @@
               </div>
   
             </div>
-            <div class="d-flex justify-content-center col-sm-12 col-lg-3 col-md-6 gx-1 gy-2 p-sm-0 card-banner">
-              <div class="card" style="width: 15rem;">
+            <div class="d-flex justify-content-center col-sm-12 col-lg-3 col-md-6 gx-3 gy-2 p-sm-0 card-banner">
+              <div class="card" style="width: 18rem;">
                 <img src="./images/img/img-2.jpg" class="card-img-top" alt="...">
                 <div class="card-body bg-dark bg-gradient">
                   <div class="text-black">Rings</div>
@@ -181,8 +219,8 @@
                 </div>
               </div>
             </div>
-            <div class="d-flex justify-content-center col-sm-12 col-lg-3 col-md-6 gx-1 gy-2 p-sm-0 card-banner">
-              <div class="card" style="width: 15rem;">
+            <div class="d-flex justify-content-center col-sm-12 col-lg-3 col-md-6 gx-3 gy-2 p-sm-0 card-banner">
+              <div class="card" style="width: 18rem;">
                 <img src="./images/img/img-3.jpg" class="card-img-top" alt="...">
                 <div class="card-body bg-dark bg-gradient">
                   <div class="text-black">Earings</div>
@@ -192,9 +230,9 @@
               </div>
             </div>
 
-            <div class="d-flex justify-content-center col-sm-12 col-lg-3 col-md-6 gx-4 gy-2 p-sm-0 card-banner">
-              <div class="card" style="width: 15rem;">
-                <img src="./images/img/img-3.jpg" class="card-img-top" alt="...">
+            <div class="d-flex justify-content-center col-sm-12 col-lg-3 col-md-6 gx-3 gy-2 p-sm-0 card-banner">
+              <div class="card" style="width: 18rem;">
+                <img src="./images/img/img-4.jpg" class="card-img-top" alt="...">
                 <div class="card-body bg-dark bg-gradient">
                   <div class="text-black">Earings</div>
                   <div class="text-black">Lorem ipsum is the placeholder</div>
@@ -453,7 +491,7 @@
       </section>
     </main>
 
-    <footer id="us" class="bg-black container-fluid">
+    <footer id="us" class="container-fluid">
       <div class="row pt-4 pb-2">
         <div class=" border-bottom col-sm-12 col-lg-3 col-md-12 gx-2 gy-2">
           CONTACT INFORAMTION
@@ -489,6 +527,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="index.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
